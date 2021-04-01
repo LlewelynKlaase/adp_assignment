@@ -16,6 +16,7 @@ class AdditionTest {
      * Created intSum3 to bypass failed testing
      */
 
+    @Test
     @BeforeEach
     void setUp() {
         this.intSum = new Addition();
@@ -23,15 +24,16 @@ class AdditionTest {
         intSum3 = intSum;
     }
 
+    @Test
+    @Disabled("Method not needed.")
+    void afterAll() {
+
+    }
+    
+    @Test
     @Timeout(value = 10, unit = TimeUnit.MILLISECONDS)
     @AfterEach
     void tearDown() {
-
-    }
-
-    @Disabled("Method not needed.")
-    @AfterAll
-    static void afterAll() {
 
     }
 
