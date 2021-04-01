@@ -8,7 +8,6 @@ package za.ac.cput.adp3_GitAssignment;
  * date 01 April 2021
  * **/
 
-
 public class Division {
 
     private int dividend;

@@ -33,9 +33,4 @@ public class Subtraction {
     public void setMarkB(int markB) {
         this.markB = markB;
     }
-
-
-
 }
-
-
